@@ -1,0 +1,131 @@
+Git Basic:
+    Git is a distributed version control system that allows multiple developers to collaborate on a project. It tracks changes to files, keeps a history of modifications, and enables seamless collaboration. Here are some basic concepts:
+
+        Repository:
+            A repository is a directory that contains your project and its history. It can be local or remote.
+
+        Commit:
+            A commit represents a snapshot of your project at a specific point in time. It records changes made to files.
+
+        Branch:
+            A branch is a parallel version of your repository. It allows you to work on different features or fixes independently.
+
+        Merge:
+            Merging combines changes from different branches into one. It integrates the changes and resolves conflicts if any.
+
+        Pull:
+            Pulling fetches changes from a remote repository and merges them with your local branch.
+
+        Push:
+            Pushing sends your local commits to a remote repository, updating it with your changes.
+
+        Clone:
+            Cloning creates a local copy of a remote repository on your machine.
+
+        Pull Request:
+            A pull request is a request to merge changes from one branch into another. It facilitates code review and collaboration.
+
+        Fork:
+            Forking creates a personal copy of a repository under your GitHub account. You can make changes independently and propose them for merging.
+
+        
+        Most commonly using commands:
+            git init: 
+                Initializes a new Git repository in the current directory.
+            git clone [repository]:
+                Creates a local copy of a remote repository on your machine.
+            git add [file]:
+                Adds a file to the staging area, preparing it for commit.
+            git commit -m "message":
+                Commits the changes in the staging area with a descriptive message.
+            git status:
+                Shows the current state of the repository, including modified files and untracked changes.
+            git branch:
+                Lists existing branches and shows the current branch.
+            git checkout [branch]:
+                Switches to a different branch in your repository.
+            git merge [branch]:
+                Combines changes from the specified branch into the current branch.
+            git pull:
+                Fetches changes from a remote repository and merges them into the current branch.
+            git push:
+                Pushes local commits to a remote repository, updating it with your changes.
+            git remote add [name] [URL]:
+                Adds a remote repository with a given name and URL.
+            git log:
+                Displays a history of commits, including commit messages, authors, and timestamps.
+            git diff:
+                Shows the differences between the working directory, staging area, and the last commit.
+            git stash:
+                Temporarily saves changes that are not ready to be committed, allowing you to switch branches or pull changes.
+            git reset [file]:
+                Un-stages a file, removing it from the staging area but preserving its changes.
+            Each commands user guide examples:
+            
+        
+        Here is the details how to user above commands:
+            git init:
+                Navigate to the desired directory: cd /path/to/repository.
+                Run git init to initialize a new Git repository.
+
+            git clone [repository]:
+                Run git clone [repository_url] to create a local copy of a remote repository.
+                Example: git clone https://github.com/exampleuser/example-repo.git.
+                
+            git add [file]:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git add [file] to add a specific file to the staging area.
+                Example: git add myfile.txt.
+
+            git commit -m "message":
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git commit -m "message" to commit the changes with a descriptive message.
+                Example: git commit -m "Added new feature"
+                
+            git status:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git status to see the current status of the repository.
+
+             git branch:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git branch to list all existing branches.
+                
+            git checkout [branch]:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git checkout [branch] to switch to a different branch.
+                Example: git checkout development.
+                
+            git merge [branch]:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git merge [branch] to merge changes from the specified branch into the current branch.
+                Example: git merge feature-branch.
+
+            git pull:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git pull to fetch and merge changes from a remote repository into the current branch.
+
+            git push:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git push to push local commits to a remote repository.
+            
+            git remote add [name] [URL]:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git remote add [name] [URL] to add a remote repository with a given name and URL.
+                Example: git remote add origin https://github.com/exampleuser/example-repo.git.
+            
+            git log:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git log to display the commit history.
+            
+            git diff:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git diff to see the differences between the working directory and the last commit.
+
+            git stash:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git stash to temporarily save changes that are not ready to be committed.
+            
+            git reset [file]:
+                Navigate to the repository directory: cd /path/to/repository.
+                Run git reset [file] to unstage a file, removing it from the staging area.
+                Example: git reset myfile.txt.
